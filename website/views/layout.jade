@@ -1,0 +1,16 @@
+!!!
+html
+	head
+		title= 'Sample Site'
+		meta(viewport='width=device-width, initial-scale=1.0')
+		script(src="/javascripts/jquery.min.js")
+		link(rel='stylesheet', href='/stylesheets/iconicfill/iconic_fill.css')
+		style
+			ul { list-style-type: none; }
+			li { line-height: 35px; font-size: 18px; }
+			.star { color: rgb(255, 214, 0); cursor: pointer; margin-left: 10px; }
+			.star:hover { color: #ff0000; transition: color .25s ease-in-out; -moz-transition: color .25s ease-in-out; -webkit-transition: color .25s ease-in-out; }
+			.likes { font-size: 22px; color: #ff0000; }
+			.sizeit { font-size: 14px; color: rgb(255, 214, 0); transition: font-size .25s ease-in-out,color .25s ease-in-out; -moz-transition: color .25s ease-in-out; -webkit-transition: font-size .25s ease-in-out, color .25s ease-in-out; }
+	body
+		!= body
